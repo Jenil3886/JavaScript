@@ -1,3 +1,6 @@
+//differencre between let var const
+
+
 // 1 re-declaration
 
 var a = 10
