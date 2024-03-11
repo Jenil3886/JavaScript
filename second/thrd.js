@@ -32,3 +32,4 @@ function alltypes(p1, p2, p3, p4, p5, p6, p7, p8, p9) {
 
 let d = alltypes(10, 15, 14, 18, 30, 25, 65, 85, 41)
 console.log(d)
+
