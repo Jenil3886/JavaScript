@@ -23,6 +23,7 @@ e = 20
 console.log(e)
 
 const f = 10
+
 // f = 20 error
 console.log(f)
 
