@@ -67,4 +67,3 @@ let w=Math.pow(v,2)
 
 console.log (w)
 
-
