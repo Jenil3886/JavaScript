@@ -23,3 +23,9 @@ const apple = "Apple, Banana, Kiwi"
 const jenil = apple.slice(-12)
 
 console.log(jenil)
+
+const banana = 'Apple, Banana, Kiwi'
+const jenill = apple.slice(-12)
+
+console.log(jenill)
+
