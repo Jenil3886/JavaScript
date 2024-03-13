@@ -11,3 +11,15 @@ console.log(riya)
 // let rajnit = jenil.slice(7,13)         //   this is not right way in print in string.slice()
                                           //
 // console.log(rajanit)                   //
+
+const text = "jenil, sanket, darshan"
+const parth = text.slice(-12)
+
+console.log(parth)
+
+
+
+const apple = "Apple, Banana, Kiwi"
+const jenil = apple.slice(-12)
+
+console.log(jenil)
