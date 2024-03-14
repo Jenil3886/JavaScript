@@ -45,7 +45,15 @@ console.log(part)
 // substr() is similar to slice().
 // The difference is that the second parameter specifies the length of the extracted part.
 
-// const kivi = "apple, banana, kivi"
-// const paart = kivi.substr(7, 6)
+const kivi = "apple, banana, kivi"
+const paart = kivi.substr(7, 6)
 
-// console.log(paart)
+console.log(paart)
+
+function abc () {
+    console.log('sjdhfskjf')
+}
+
+abc()
+
+kivi.includes()
