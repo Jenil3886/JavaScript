@@ -46,6 +46,6 @@ console.log(part)
 // The difference is that the second parameter specifies the length of the extracted part.
 
 // const kivi = "apple, banana, kivi"
-// const paart = kivi.substr(paart)
+// const paart = kivi.substr(7, 6)
 
 // console.log(paart)
