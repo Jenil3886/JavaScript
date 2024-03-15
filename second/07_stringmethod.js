@@ -27,4 +27,4 @@ const ttext4 = " a"
 const ttext5 = " sanket"
 const ttext6 = " talaviya"
 
-console.log(" ",text1, text2, text3, text4, text5, text5, text6)
+console.log(" ",ttext1, ttext2, ttext3, ttext4, ttext5, ttext5, ttext6)
