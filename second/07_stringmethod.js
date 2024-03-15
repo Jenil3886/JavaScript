@@ -17,3 +17,14 @@ const text5 = " jenil"
 const text6 = " gajera"
 
 console.log(" ",text1, text2, text3, text4, text5, text5, text6)
+ 
+//Ex..
+
+const ttext1 = " Hii"
+const ttext2 = " I"
+const ttext3 = " am"
+const ttext4 = " a"
+const ttext5 = " sanket"
+const ttext6 = " talaviya"
+
+console.log(" ",text1, text2, text3, text4, text5, text5, text6)
