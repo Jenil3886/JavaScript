@@ -39,3 +39,5 @@ let trim1 = " Hellow World!"
 let trim2 = trim1.trimStart()
 
 console.log(trim2)
+
+//
