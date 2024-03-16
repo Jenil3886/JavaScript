@@ -28,3 +28,14 @@ const ttext5 = " sanket"
 const ttext6 = " talaviya"
 
 console.log(" ",ttext1, ttext2, ttext3, ttext4, ttext5, ttext5, ttext6)
+
+
+//-------------------------------trimStart()---------------------------------------//
+// ECMAScript 2019 added the String method trimStart() to JavaScript.
+// The trimStart() method works like trim(), but removes whitespace only from the start of a string.
+
+
+let trim1 = " Hellow World!"
+let trim2 = trim1.trimStart()
+
+console.log(trim2)
