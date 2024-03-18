@@ -16,7 +16,7 @@ const text4 = " a"
 const text5 = " jenil"
 const text6 = " gajera"
 
-console.log(" ",text1, text2, text3, text4, text5, text5, text6)
+console.log(" ",text1, text2, text3, text4, text5, text6)
  
 //Ex..
 
@@ -27,7 +27,7 @@ const ttext4 = " a"
 const ttext5 = " sanket"
 const ttext6 = " talaviya"
 
-console.log(" ",ttext1, ttext2, ttext3, ttext4, ttext5, ttext5, ttext6)
+console.log(" ",ttext1, ttext2, ttext3, ttext4, ttext5, ttext6)
 
 
 //-------------------------------trimStart()---------------------------------------//
@@ -41,3 +41,9 @@ let trim2 = trim1.trimStart()
 console.log(trim2)
 
 //
+
+
+let trim3 = " Hellow World!"
+let trim4 = trim1.trimStart()
+
+console.log(trim2)
