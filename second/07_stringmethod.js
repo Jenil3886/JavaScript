@@ -44,6 +44,8 @@ console.log(trim2)
 
 
 let trim3 = " Jenil gjajera"
-let trim4 = trim1.trimStart()
+let trim4 = trim3.trimStart()
 
-console.log(trim2)
+console.log(trim4)
+ 
+//
