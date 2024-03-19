@@ -36,16 +36,16 @@ console.log(" ",ttext1, ttext2, ttext3, ttext4, ttext5, ttext6)
 
 
 let trim1 = " Hellow World!"
-let trim2 = trim1.trimStart()
+let trim2 = trim1.trimEnd()
 
 console.log(trim2)
 
-//
+// -------------------------------trimEnd()-----------------------//
+//ECMAScript 2019 added the string method trimEnd() to JavaScript.
+//The trimEnd() method works like trim(), but removes whitespace only from the end of a string.
 
 
-let trim3 = " Jenil gjajera"
-let trim4 = trim3.trimStart()
+let trim3 = " jenil gajera!"
+let trim4 = trim3.trimEnd()
 
 console.log(trim4)
- 
-//
