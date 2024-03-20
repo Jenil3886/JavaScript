@@ -12,5 +12,10 @@ let d="jenil"
 
 //bullint
 
+let g=true
+let h=false
+
+
+
 let e=true
 let f=false
