@@ -47,3 +47,21 @@ var apps = ["Google", "YouTube", "WhatsApp"];
 console.log(apps);
 
 // Redeclaring an array declared with var is allowed anywhere in a program
+
+var companies = ["Google", "YouTube", "Apple"]; // Allowed
+var companies = ["Google", "Tesla", "Apple"]; // Allowed
+companies = ["TATA", "Tesla", "Samsung"]; // Allowed
+
+// Redeclaring or reassigning an array to const, in the same scope, or in the same block, is not allowed
+
+// Redeclaring or reassigning an existing const array, in the same scope, or in the same block, is not allowed
+
+// Redeclaring an array with const, in another scope, or in another block, is allowed
+
+const movies = ["KGF", "KGF2", "KGF3"]; // Allowed
+{
+    const movies = ["KGF", "KGF2", "KGF3"]; // Allowed
+}
+{
+    const movies = ["KGF", "KGF2", "KGF3"]; // Allowed
+}
