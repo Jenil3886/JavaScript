@@ -1,42 +1,102 @@
-// Conditional statements are used to perform different actions based on different conditions.
+// switch statement is used to perform different actions based on different conditions.
 
-// Use the if statement to specify a block of JavaScript code to be executed if a condition is true.
+// Use the switch statement to select one of many code blocks to be executed.
 
-let x = 15;
+// value of the expression is compared with the values of each case.
 
-if (x > 13){ // x is greater than 13 so the condition is true & the code block will be executed
-    console.log("You are a teenager");
+switch (new Date().getDay()) { // .getDay method returns the day of the week
+    case 0:
+        console.log("Sunday");
+        break;
+
+    case 1:
+        console.log("Monday");
+        break;
+
+    case 2:
+        console.log("Tuesday");
+        break;
+
+    case 3:
+        console.log("Wednesday");
+        break;
+
+    case 4:
+        console.log("Thursday");
+        break;
+
+    case 5:
+        console.log("Friday");
+        break;
+
+    case 6:
+        console.log("Saturday");
+        break;
 }
 
-// Use the else statement to specify a block of code to be executed if the condition is false.
+/* If there is a match, the associated block of code is executed, If there is no match, the default code block
+is executed. */
 
-if (x >= 18){ // x isn't greater than 18 so the condition is false & the if code block will not be executed
-    console.log("You can vote");
-} else { // Here, the else code block will be executed as the condition is false
-    console.log("You can't vote");
+// When JavaScript reaches a break keyword, it breaks out of the switch block.
+
+// It is not necessary to break the last case in a switch block.The block breaks(ends) there anyway.
+
+// default keyword specifies the code to run if there is no case match
+
+switch (new Date().getDay()) {
+    case 0:
+        console.log("Sunday!");
+        break;
+    case 6:
+        console.log("Saturday!");
+        break;
+    default:
+        console.log("Enjoy your working day!");
 }
 
-// an example
+// default case does not have to be the last case in a switch block
 
-let y = 24;
-
-if (y > 18){
-    text = "You are an adult";
-} else {
-    text = "You arn't an adult";
+switch (new Date().getDay()) {
+    default:
+        console.log("Enjoy your working day!");
+        break; // here, break should be added
+    case 0:
+        console.log("Sunday!");
+        break;
+    case 6:
+        console.log("Saturday!"); // here, break is not necessary
 }
 
-var text; // using let is not possible in this case
-console.log(text);
+// Common code blocks, Sometimes you will want different switch cases to use the same code.
 
-// Use the else if statement to specify a new condition if the first condition is false.
+// In this example case 4 and 5 share the same code block, and 0 and 6 share another code block
 
-let time = new Date().getHours();
+switch (new Date().getDay()) {
+    case 4:
+    case 5:
+        text = "Soon it is Weekend";
+        break;
+    case 0:
+    case 6:
+        text = "It is Weekend";
+        break;
+    default:
+        text = "Looking forward to the Weekend";
+}
 
-if (time < 12){
-    console.log("Good Morning!");
-} else if (time >= 12 && time < 18){
-    console.log("Good Afternoon!");
-} else {
-    console.log("Good Evening!");
+// If multiple cases matches a case value, the first case is selected.
+
+// Switch cases use strict comparison(===), Values must be of the same type to match.
+
+let x = "0";
+
+switch (x) {
+    case 0: // here, x is equal to 0 but it is a string type
+        console.log("Off");
+        break;
+    case 1:
+        console.log("On");
+        break;
+    default:
+        console.log("No value found!");
 }
