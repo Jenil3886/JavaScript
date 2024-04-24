@@ -1,8 +1,8 @@
 // for in statement loops through the properties of an Object
 
 const person = {
-    firstName: "Sanket",
-    lastName: "Talaviya",
+    firstName: "Jemil",
+    lastName: "Gajera",
     age: 17
 }
 

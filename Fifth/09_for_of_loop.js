@@ -19,7 +19,7 @@ for (let x of cars) {
 console.log(); // just for line-break
 
 // Looping over a String
-const name = "Sanket";
+const name = "jenil";
 
 for (let x of name) {
     console.log(x);

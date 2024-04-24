@@ -3,7 +3,7 @@
 // for statement creates a loop with 3 optional expressions
 
 for (let i = 0; i < 5; i++){ // we can declare let inside the loop, cannot use outside the loop globally
-    console.log("Sanket Talaviya");
+    console.log("Jenil Gajera");
 } // loop started from 0 to 4 (total 5 times)
 
 /* Normally you will use expression 1 to initialize the variable used in the loop(let i = 0), This is not
