@@ -1,5 +1,6 @@
-// console.log(typeof null);/
+let str = "ipsum dolor sit amet";
+let words = str.split(" ");
 
-let isLoggedIn = 1
-let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn); 
+let capitalizedWords = words.map(word => word.charAt(0).toUpperCase() + word.slice(1));
+
+console.log(capitalizedWords); 
