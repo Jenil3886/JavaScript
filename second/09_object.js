@@ -10,8 +10,8 @@ const car = { type: "Bugatti", model: "Chiron", color: "blue" };
 // Spaces and line breaks are not important. An object definition can span multiple lines
 
 const person = {
-    firstName: "Sanket",
-    lastName: "Talaviya",
+    firstName: "Jenil",
+    lastName: "Gajera",
     age: 30,
     eyeColor: "blue",
     weight: 50,

@@ -1,14 +1,14 @@
 // Template Literals use back - ticks(``) rather than the quotes("") to define a string
 
-let text1 = `Sanket Talaviya`;
+let text1 = `Jenil Gajera`;
 console.log(text1);
 
 // With template literals, you can use both single and double quotes inside a string
 
-let text2 = `My name is "Sanket" & surname is "Talaviya"`;
+let text2 = `My name is "Jenil" & surname is "Gajera"`;
 console.log(text2);
 
-let text3 = `I am "Sanket" 'Talaviya'`;
+let text3 = `I am "Jenil" 'Gajera'`;
 console.log(text3);
 
 // Template literals allows multiline strings
@@ -22,8 +22,8 @@ console.log(text4);
 
 // Template literals provide an easy way to interpolate variables and expressions into strings.
 
-let firstName = "Sanket";
-let lastName = "Talaviya";
+let firstName = "Jenil";
+let lastName = "Gajera";
 
 let text5 = `My name is ${firstName} ${lastName}`;
 console.log(text5);

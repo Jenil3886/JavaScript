@@ -6,7 +6,7 @@
 // Errors can be coding errors made by the programmer, errors due to wrong input, and other unforeseeable things.
 
 try {
-    consol.log("Sanket Talaviya"); // we forgot to add 'e' in console
+    consol.log("Jenil Gajera"); // we forgot to add 'e' in console
 }
 catch(error) {
     console.log(error.message); // error in above statement will be displayed here
@@ -52,8 +52,8 @@ catch(err) {
 try {
     console.og("XYZ");
 }
-catch(sanket) {
-    console.log(sanket.message);
+catch(Jenil) {
+    console.log(Jenil.message);
 }
 
 console.log(); // just for line-break

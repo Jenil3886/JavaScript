@@ -111,7 +111,7 @@ console.log(x);
 /* NaN is a JavaScript reserved word indicating that a number is not a legal number, trying to do arithmetic
 with a non-numeric string will result in NaN (Not a Number) */
 
-let _m = 10 / "Sanket"; // this will be NaN (Not a Number)
+let _m = 10 / "Jenil"; // this will be NaN (Not a Number)
 console.log(_m);
 
 let _n = 10 / "5"; // this won't be NaN (Not a Number) as it is a numeric string

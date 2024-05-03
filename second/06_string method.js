@@ -12,7 +12,7 @@ console.log(riya)
 //
 // console.log(rajanit)                   //
 
-const text = "jenil, sanket, darshan"
+const text = "jenil, Jenil, darshan"
 const parth = text.slice(-12)
 
 console.log(parth)

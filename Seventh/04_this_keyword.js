@@ -5,8 +5,8 @@
 // When used in an object method, this refers to the object.
 
 const person1 = {
-    fname: "Sanket",
-    lname: "Talaviya",
+    fname: "Jenil",
+    lname: "Gajera",
     age: 21,
     fullName: function(){
         return this.fname + " " + this.lname;

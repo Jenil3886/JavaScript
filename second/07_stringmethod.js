@@ -24,8 +24,8 @@ const ttext1 = " Hii"
 const ttext2 = " I"
 const ttext3 = " am"
 const ttext4 = " a"
-const ttext5 = " sanket"
-const ttext6 = " talaviya"
+const ttext5 = " Jenil"
+const ttext6 = " Gajera"
 
 console.log(" ",ttext1, ttext2, ttext3, ttext4, ttext5, ttext6)
 

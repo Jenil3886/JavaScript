@@ -23,7 +23,7 @@ console.log(Boolean(15)); // true
 console.log(Boolean("12")); // true
 console.log(Boolean("-14")); // true
 console.log(Boolean("0")); // true
-console.log(Boolean("Sanket")); // true
+console.log(Boolean("Jenil")); // true
 console.log(Boolean("true")); // true
 console.log(Boolean("false")); // true
 
@@ -54,7 +54,7 @@ console.log(Boolean(e)); // false
 let f = NaN;
 console.log(Boolean(f)); // false
 
-let g = 10 / "Sanket"; // NaN expression
+let g = 10 / "Jenil"; // NaN expression
 console.log(Boolean(g)); // false
 
 /* booleans can also be defined as objects with the keyword new but don't create Boolean objects. The new

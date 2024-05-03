@@ -12,7 +12,7 @@ console.log(typeof 10);
 console.log(typeof 12.5);
 console.log(typeof 0);
 
-console.log(typeof "Sanket");
+console.log(typeof "Jenil");
 console.log(typeof "false");
 console.log(typeof "15");
 console.log(typeof "0");
@@ -27,7 +27,7 @@ console.log(typeof $x);
 // typeof operator can return one of two complex types: object, function
 // typeof operator returns "object" for objects, arrays, and null, doesn't return "object" for functions
 
-console.log(typeof {Name: "Sanket", Age: 21});
+console.log(typeof {Name: "Jenil", Age: 21});
 console.log(typeof [1, 2, "San", "ket"]); // arrays are objects in JavaScript
 console.log(typeof null);
 console.log(typeof function myFunction(){});
@@ -44,4 +44,4 @@ console.log(false.constructor);
 console.log(function(){}.constructor);
 console.log(new Date().constructor);
 console.log([1, 2, 13, 25].constructor);
-console.log({name: "Sanket", age: 23, height: 165}.constructor);
+console.log({name: "Jenil", age: 23, height: 165}.constructor);

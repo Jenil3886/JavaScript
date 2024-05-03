@@ -7,8 +7,8 @@ console.log(str1);  // printing string
 
 // strings can be written in single or double quotes
 
-let str2 = "Sanket Talaviya"; // double quotes
-let str3 = 'Sanket Talaviya'; // single quotes
+let str2 = "Jenil Gajera"; // double quotes
+let str3 = 'Jenil Gajera'; // single quotes
 
 console.log(str2);
 console.log(str3);
@@ -16,9 +16,9 @@ console.log(str3);
 // You can use quotes inside a string, as long as they don't match the quotes surrounding the string
 
 let str4 = "It's alright";
-let str5 = "My name is 'Sanket'"; // single quotes inside double quotes
-let str6 = 'My name is "Sanket"'; // double quotes inside single quotes
-// let str7 = "My name is "Sanket""; this isn't valid
+let str5 = "My name is 'Jenil'"; // single quotes inside double quotes
+let str6 = 'My name is "Jenil"'; // double quotes inside single quotes
+// let str7 = "My name is "Jenil""; this isn't valid
 
 console.log(str4);
 console.log(str5);

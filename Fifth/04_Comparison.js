@@ -61,9 +61,9 @@ some condition. */
 
 console.log(2 < 15); // true
 console.log(2 < "15"); // true
-console.log(2 < "Sanket"); // false
-console.log(2 > "Sanket"); // false
-console.log(2 == "Sanket"); // false
+console.log(2 < "Jenil"); // false
+console.log(2 > "Jenil"); // false
+console.log(2 == "Jenil"); // false
 console.log("2" < "15"); // false
 console.log("2" > "15"); // true
 console.log("2" == "15"); // false

@@ -161,7 +161,7 @@ console.log(_part7);
 
 // charAt() method returns the character at a specified index (position) in a string
 
-let _text7 = "SANKET TALAVIYA";
+let _text7 = "Jenil Gajera";
 
 console.log(_text7.charAt(0)); // this will return the first character of the string
 
