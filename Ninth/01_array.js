@@ -21,6 +21,7 @@ const myArr2 = new Array(1, 2, 3, 4)
 // console.log(myArr.indexOf(3))   // answer is index number // 3
 
 // const newArr = myArr.join() // join() data converting in string
+// const newArr2 = myArr.join("*")  //  0*1*2*3*4*5
 
 // console.log(myArr)  // answer type of object // [0, 1, 2, 3, 4, 5]
 // console.log(newArr) // answer type of string // 0, 1, 2, 3, 4, 5
@@ -38,3 +39,13 @@ const myn2 = myArr.splice(1, 3)
 
 console.log(myn2)
 console.log("C", myArr)
+
+const myn3 = myArr.splice(2, 0, "jenil", "gajera")
+console.log(myn3)
+console.log("D",myArr)
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+const fruit = fruits.at(3);
+
+console.log(fruit)
+console.log(fruits)
