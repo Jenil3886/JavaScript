@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- create a form -->
+
+    <div class="container">
+        <div class="card">
+            <h1>Registration</h1>
+
+            <form id="form" action="#">
+                <div class="form_group">
+                    <input type="text" class="form_control" id="name" name="name" placeholder="Enter Name">
+                    <span id="name_error"></span>
+                </div>
+                <div class="form_group">
+                    <input type="email" class="form_control" id="email" name="email" placeholder="Enter Email">
+                    <span id="email_error"></span>
+                </div>
+                <div class="form_group">
+                    <input type="password" class="form_control" id="password" name="password" placeholder="Enter  Password">
+                    <span id="password_error"></span>
+                </div>
+
+                <div class="text_center">
+                    <button type="submit" onclick="saveData()" class="btn" id="save_btn">Submit</button>
+                    <button type="reset" class="btn2" id="">Reset</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        
+function saveData() {
+    let name, email,password;
+    name=document.getElementById("name").value;
+    email=document.getElementById("email").value;
+    password=document.getElementById("password").value;
+
+    // localStorage.setItem("name", name);
+    // localStorage.setItem("email", email);
+    // localStorage.setItem("password", password);
+
+
+    // parse() is use a convert to string to object // 
+
+    let user_records = new Array();
+    user_records = JSON.parse(localStorage.getItem("users"))?JSON.parse(localStorage.getItem("users")):[]
+
+    if (user_records.some((v) => {
+        return v.email == email
+    })) {
+        alert("Duplicate Date")
+    }
+    else{
+        user_records.push({
+            "name":name,
+            "email": email,
+            "password": password
+        })
+        localStorage.setItem("users", JSON.stringify(user_records));
+
+        // window.location.href = "Login.html";
+
+    }
+}
+
+
+// register form validation // 
+
+let form = document.getElementById("form");
+
+let name_error = document.getElementById("name_error");
+let email_error = document.getElementById("email_error");
+let password_error = document.getElementById("password_error");
+
+form.addEventListener("submit", (e) =>  {
+
+    // name validation //
+
+    if (name.value === "" || name.value == null) {
+        e.preventDefault();
+        name_error.innerHTML = "Name is required";
+    }
+    else{
+        name_error.innerHTML = "";
+    }
+
+    // email validation // 
+
+    let email_check = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+
+    if (!email.value.match(email_check)) {
+        e.preventDefault();
+        email_error.innerHTML = "Valid Email is Required";
+    }else{
+        email_error.innerHTML = "";
+    }
+
+    // password validation // 
+
+    if (password.value.length <= 5) {
+        e.preventDefault();
+        password_error.innerHTML = "Password must be more than 6 character";
+    }else{
+        password_error.innerHTML = "";
+    }
+
+    if (password.value.length >= 20) {
+        e.preventDefault();
+        password_error.innerHTML = "Password cannot be more than 20 character";
+    }
+});
+
+    </script>
+
+</body>
+</html>

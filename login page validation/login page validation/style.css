@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+form{
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 250px;
+    height: auto;
+    text-align: center;
+    padding: 30px 10px;
+}
+h1{
+    margin: 10px;
+}
+.name input,
+.password input{
+    background-color:transparent;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid rgba(0, 0, 0, 0.582);
+    outline: none;
+    border-radius: 10px;
+}
+.name input::placeholder,
+.password input::placeholder{
+    color: black;
+}
+.name span,
+.password span{
+    color: red;
+    /* align-items: start; */
+    display: flex;
+    justify-content: start;
+    padding: 7px;
+}
+.password{
+    position: relative;
+}
+
+.password i{
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 13px;
+    cursor: pointer;
+}
